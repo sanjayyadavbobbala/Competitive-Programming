@@ -1,0 +1,28 @@
+when N=1, K is 1 and the value is 0 --> there is only 1 symbol
+
+whatever the fuck k is? we need to bring it to 1. why I only know N=1, val is 0.
+
+during Nth row there are 2^(n-1) symbols if k falls in the upperhalf then flip it.
+
+why do you flip?? I flip it by saying k-(2^ n-1)/2 is the symbol I travel to --> deep shit
+
+so next time if it again falls in the upperhalf(now it is 2^(n-2)) then flip again otherwise no flip and all good.
+
+keep going till k=1
+
+k-2^x-2^y-2^z-...=1
+k-1 = 2^x + 2^y + 2^z+ ....
+constants for above if there is flip 1 else 0, I mean c1* 2^x where c1 is const.
+c1,c2,c3.. havent written, not imaginary 
+
+doubling down to number of flips = number of 1 bits in k-1
+
+if count of 1's & 1 is 0 then 0 else 1 --> takes eternity to understand but make sense
+
+finding 1's take O(log k) time which is why this is fucking best. 
+how?? this is just log(MaxNumberApproach)
+if 64 bit log(2^64) == 64  --> loop (0-63) 
+if 32 bit == 32.
+
+
+
